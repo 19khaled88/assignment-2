@@ -2,7 +2,8 @@
 body{
  margin:20px;
  padding:0px;  
- font-family: 'Poppins', sans-serif;;
+ font-family: 'Poppins', sans-serif;
+ background-color: whitesmoke;
 }
 
 
@@ -65,8 +66,10 @@ nav li a{
     justify-content: space-between;
     margin-right: 15%;
     margin-left: 15%;
-    padding-top:30px;
-    padding-bottom: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-top:40px;
+    margin-bottom: 40px;
    
 
     border-style: solid;
@@ -79,6 +82,52 @@ nav li a{
     line-height: 50px;
     color: white;
     text-align: center;
-
-  
 }
+
+/* popular section start here */
+#popular-collection-title{
+    text-align: center;
+}
+#popular-collection{
+    margin-left:15%;
+    margin-right:15%;
+}
+#popular-collection{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+#popular-collection div{
+    border-radius:5px;
+    background-color: white;
+    margin: 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+#popular-collection img{
+    padding: 8px 8px;
+    width:280px;
+}
+#popular-collection h3, h2, span, p{
+    padding-left:8px;
+    
+}
+#popular-collection span, p{
+    margin-top:2px;
+    margin-bottom:2px;
+}
+#popular-collection h2, h3{
+    margin-top:8px;
+    margin-bottom:8px;
+}
+.popular-collection-flex{
+    display: flex;
+    
+}
+.fa-star{
+    color: yellow;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: orange;
+}
+.yellow-color {
+    color:yellow;
+    }
