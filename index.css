@@ -131,3 +131,13 @@ nav li a{
 .yellow-color {
     color:yellow;
     }
+
+#see-more{
+    float: right;
+    padding-right: 200px;
+    color: #F05454;
+    font-weight: bold;
+}
+.fa-arrow-right{
+    color:#F05454 ;
+}
