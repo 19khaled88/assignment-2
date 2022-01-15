@@ -1,0 +1,84 @@
+/* common css codes */
+body{
+ margin:20px;
+ padding:0px;  
+ font-family: 'Poppins', sans-serif;;
+}
+
+
+/* navigatoin css code starts here*/
+header{
+    height: 80px;
+    background-color: cornflowerblue;
+}
+nav{
+   padding-top: 10px;
+}
+nav ul{
+   display: flex;
+   justify-content: space-between;
+   margin-right:40px; 
+}
+nav li{
+   list-style: none;
+   margin-right: 25px;  
+}
+nav li:last-child{
+    margin-right:0px;
+}
+#nav-child-2{
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* influencer journey section */
+
+#start-influencing{
+    display: flex;
+    margin: 20px 40px;
+}
+#start-influencing img{
+    border-radius: 50%;
+    border:3px solid rgba(194, 189, 189, 0.152);
+    
+    padding: 5px 5px 5px 5px;
+}
+#start-influencing button{
+    height: 35px;width: 150px;
+    background-color: #F05454;
+    border: 0px solid;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+}
+#start-influencing button i{
+    padding-left:5px
+}
+
+/* giant company logo desing start here */
+#giant-company-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+    padding-top:30px;
+    padding-bottom: 30px;
+   
+
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(to left, rgb(230, 229, 229) 1%, rgb(181, 182, 182) 50%, rgb(230, 229, 229) 100%) 
+                  100% 0 100% 0/3px 0 3px 0 stretch;
+    
+    /* other demo stuff */
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+
+  
+}
